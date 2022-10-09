@@ -1,0 +1,163 @@
+
+.seller{
+position: relative; 
+width: 180px;
+height: 100%;
+left: 20.5px;
+top: 0px;
+/* border: 1px solid white; */ 
+border-radius:20px;
+background-color:#2A2D3A;
+padding-top:40px;
+padding-bottom:30px;
+}
+.cardseller{
+display: flex;
+flex-direction: column;
+
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+/* border: 1px solid white;  */
+width: 187px;
+
+
+
+}
+.img-container{
+position: relative;
+/* border: 1px solid red;  */
+
+
+
+}
+.number{
+    position: absolute;
+    top:11px;
+    width:33px;
+    height:33px;
+    border-radius:50%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    left: 6.11%;
+    right: 75.56%;
+
+    
+    
+    /* Red Violet */
+    
+    background: #DA18A3;
+    }
+    .num1{
+   
+
+    
+
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    
+
+    
+    color: #FFFFFF;
+    }
+    
+.tik{
+    position: absolute; 
+       width: 15px;
+       height: 15px;
+bottom:0;
+right:10px;
+       background: #00B347;
+       border-radius: 50%;
+   }
+.seller-imge{
+    width: 77px;
+   
+    margin-right:3px;
+    border-radius:50%;   
+    flex: none;
+    order: 0;
+   
+  /*   margin-top:80px; */
+/* border: 1px solid white; */
+}
+.seller-name{
+
+   
+    /* font-family: 'Poppins'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+white-space: nowrap;
+
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    /* border: 1px solid white; */
+    flex-wrap: wrap;
+    gap:10px;
+    text-align:center;
+  
+}
+.many-type{
+ 
+
+   gap:5px;
+    /* border: 1px solid white; */
+    order: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    align-content:center;
+    text-align:center;
+   
+}
+.many{
+ /* position: absolute; */
+
+
+left: 6px;
+top: 112px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+text-align: right;
+color: #FFFFFF;
+/* border:1px solid white; */
+}
+.type{
+
+    /* position: absolute; */
+width: 28px;
+
+left: 53px;
+top: 111px;
+
+/* Paragraph 1 (Regular) */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+font-feature-settings: 'salt' ;
+
+/* White */
+/* border:1px solid white; */
+color: #FFFFFF;
+
+}

@@ -1,0 +1,28 @@
+.Topseller{
+/* display: flex; */
+gap: 23px;
+/* position: relative; */
+max-width: 1028px;
+
+/*  border:1px solid red;   */
+
+
+}
+
+.topseller-text{  
+   /*  border:1px solid white;  */
+width: 100%;
+max-width: 1028px;
+height: 42px;
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+margin-left:-60px;
+margin-top:30px;
+text-align:left;
+}
+
+@media(max-width:1140px){
+   max-width:600px;
+}

@@ -1,0 +1,94 @@
+.hotbindCard{
+flex-direction: column;
+position: relative;
+/* border:1px solid red; */
+width: 233px;
+height: 319px;
+}
+
+.hot-cardcover{
+width: 233px;
+height: 319px;
+/* border: 1px solid white; */
+
+border-radius:20px;
+
+background: #2A2D3A;
+
+margin-top:0px;
+
+
+}
+.hot-img{
+position: absolute;
+width: 210px;
+height: 230px;
+left: 10px;
+top: 20px;
+/* border: 1px solid white; */
+background: #2A2D3A;
+border-radius: 20px;
+}
+.hot-text-num{
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 5px;
+
+width: 210px;
+height: 44px;
+
+/* border: 1px solid white; */
+flex: none;
+order: 1;
+flex-grow: 0;
+position: absolute;
+margin-top: 265px;
+margin-left:11px;
+margin-bottom:22px;
+}
+.hot-img-text{
+width: 173px;
+height: 21px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+text-align:left;
+/* border: 1px solid white; */
+
+}
+
+.hot-many-like{
+width: 206px;
+height: 18px;
+flex: none;
+order: 1;
+flex-grow: 0;
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+flex-direction:row;
+
+
+}
+.many-type-hot{
+    width:80px;
+    height:18px;
+    /* border: 1px solid white; */
+    font-size: 12px;
+    text-align:left;
+}
+.many-like-hot{
+    /* border: 1px solid white; */
+    width:80px;
+    height:18px;
+    /* border: 1px solid white; */
+    font-size: 12px;
+    text-align:right;
+}

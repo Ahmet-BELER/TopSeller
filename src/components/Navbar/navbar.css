@@ -1,0 +1,134 @@
+.Navbar {
+    background-color:rgba(36,37,44);
+    color:white;
+    width:100%;
+    /* border:1px solid #fff; */
+    justify-content:space-around;
+    
+
+   
+}
+.nav-img{
+
+}
+.ul{
+
+  display:flex;
+  justify-content:space-around;
+  width:100%;
+}
+.navtogle{
+  
+  display:flex;
+  justify-content:space-around;
+}
+.navitems{
+
+  /* border:1px solid #fff; */
+}
+form.nosubmit {
+    border: none;
+    padding: 0;
+    background-color:rgb(27,26,32);
+  max-width:627px; 
+  border-radius:10px;
+  }
+  
+input.nosubmit {
+   /*  width: 260px; */
+    border: 1px #555;
+    color:white;
+    font-family: 'Poppins';
+    display: block;
+    padding: 9px 4px 9px 40px;
+    background: transparent url("../../../public/img/Search.svg") no-repeat 13px center;
+    background-color:rgb(27,26,32);
+ width:600px; 
+    border-radius:10px;
+
+  }
+ input.nosubmit::placeholder{
+  color: #fff;
+  font-family: 'Poppins';
+ }
+.explore{
+color:white;
+font-family:"Poppins";
+font-style:"Semibold";
+
+font-weight: 600;
+font-height:24px;
+font-size:16px;
+vertical-align:top;
+align:left;
+  }
+.create{
+    width:109px;
+    border:1px ;
+    border-radius:10px ;
+  background: linear-gradient(101.12deg, #EB1484 27.35%, #C91CC3 99.99%, #C81CC5 100%, #C81CC5 100%);
+    color: #FFFFFF;
+    border-radius:10px;
+    height:40px;
+    font-size:14px;
+    font-weight:600;
+    x-constraints:left;
+    y-constraints:top;
+ 
+
+
+}  
+
+
+
+.hr{
+
+  
+  border:1px solid #2D2E36;
+}
+li{
+  font-family: 'Poppins';
+  white-space:nowrap;
+}
+.nav-link{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+
+}
+
+.button {
+  background: linear-gradient(#EB1484 27.35%, #C91CC3 99.99%, #C81CC5 100%, #C81CC5 100%);
+  border-radius: 10px;
+
+  display: inline-block;
+  font-size: 20px;
+  padding: 1px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Poppins';
+
+  
+
+}
+.button span {
+  background: #fff;
+  display: block;
+  padding: 9px 30px;
+  border-radius: 10px;
+  background-color: black;
+   color: #EB1484;
+}
+
+
+.container {
+  text-align: center;
+
+}
+
+@media(max-width:1362px){
+input.nosubmit {
+ width:300px; 
+  }
+}

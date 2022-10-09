@@ -1,23 +1,40 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Layout from "./components/layout/index";
+import Home from "./pages/home/index";
+import Item from "./pages/Item/index"
+import {useDispatch} from "react-redux"
+import { fetchTopSellers} from "./redux/slices/topSellerSlice";
+import { fetchHotBids } from "./redux/slices/hotBidsSlice";
 import './App.css';
+import { useEffect } from "react";
 
 function App() {
+  const dispatch =useDispatch()
+
+  useEffect(() => {
+    dispatch(fetchTopSellers())
+    dispatch(fetchHotBids())
+  }, [])
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Router>
+        <Routes>
+
+          <Route path="/" exact element={<Layout><Home /></Layout>} />
+          <Route path="/ıtem" element={<Layout><Item /></Layout>} />
+        </Routes>
+
+
+
+      </Router>
+
+
+
+
+
+
     </div>
   );
 }

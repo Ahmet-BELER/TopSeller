@@ -1,0 +1,18 @@
+.ıtem{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+ 
+  
+
+}
+.ıtem-text{
+    background-color:#EB1484;
+    border-radius:20px;
+    text-align:center;
+    font-family: 'Poppins';
+    font-size:36px;
+    color:white;
+    height:72px;
+}

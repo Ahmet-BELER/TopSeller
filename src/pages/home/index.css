@@ -1,0 +1,62 @@
+
+.discover{
+  display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-content:center; 
+  /*   position:relative; */
+text-align:center;
+    color:white;
+    margin-top:60px;
+
+}
+
+.img-responsive{
+  display:flex;
+  padding-left:10vh;
+  align-items:center;
+  position:relative;
+  overflow:hidden;
+  max-width:992px;
+    width:70%;
+    height:300px;
+    border-radius:25px;
+    background: linear-gradient(101.12deg, #EB1484 27.35%, #C91CC3 99.99%, #C81CC5 100%, #C81CC5 100%);
+}
+.elips4{
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+.elips3{
+  position:absolute;
+  bottom:0px;
+  right:0px;
+
+}
+
+.text{
+
+text-align:left;
+width:663px;
+
+font-weight:bold;
+font-family:"Madera Bold";
+font-size:48px;
+line-height:51px;
+
+
+}
+.containerr {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }

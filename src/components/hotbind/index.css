@@ -1,0 +1,65 @@
+.hotbind{
+display: flex;
+justify-content:space-between;
+align-items: flex-start; 
+gap: 30px;
+max-width:1028px;
+
+/* border: 1px solid white; */
+
+position: relative;
+
+flex-wrap: wrap;
+}
+.hot-title{
+width: 100%;
+max-width:1028px;
+height: 42px;
+margin-top:42px;
+/* Heading 1 */
+/* border: 1px solid white; */
+position: relative;
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+text-align:left;
+/* identical to box height */
+
+
+/* White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.load{
+   margin-top:60px; 
+   margin-bottom:40px
+}
+.showles{
+   background: linear-gradient(#EB1484 27.35%, #C91CC3 99.99%, #C81CC5 100%, #C81CC5 100%);
+   border-radius: 10px;
+ 
+   display: inline-block;
+   font-size: 20px;
+   padding: 1px;
+   text-decoration: none;
+   font-size: 14px;
+   font-family: 'Poppins';
+   margin-top:20px;
+}
+.show{
+   background: #fff;
+   display: block;
+   padding: 9px 30px;
+   border-radius: 10px;
+   background-color: black;
+    color: #EB1484;
+ }
