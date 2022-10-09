@@ -53,7 +53,7 @@ const handleSetCount = () =>{
         }
      </div>
         
-        <hr style={{marginBottom:"20px"}} ></hr>
+     <hr className="hr"></hr>
         </>
     )
 }
