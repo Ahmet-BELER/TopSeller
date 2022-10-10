@@ -19,7 +19,11 @@ export default function Footer() {
         </div>
 
         <div className="div-3">
-         <img src="./img/col3.svg"></img>
+         <img src="./img/Support.svg"></img>
+         <div className="text2">Help Center</div>
+        <div className="text2">Terms of services</div>
+        <div className="text2">Legal</div>
+        <div className="text2">Privacy Policy</div>
          </div>
 
 
